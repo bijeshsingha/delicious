@@ -10,7 +10,7 @@ const RecipeDetail = (props) => {
 
 
     const getRecipe = (name) => {
-        const apiKey = "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";
+        const apiKey = "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";
         if (check) {
             setResponse(JSON.parse(check));
             console.log("check is not empty")

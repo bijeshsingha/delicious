@@ -10,7 +10,7 @@ const RecipeDetail = (props) => {
 
 
     const getRecipe = (name) => {
-        const apiKey = "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";
+        const apiKey = process.env.REACT_APP_OPENAI_API_KEY;
         if (check) {
             setResponse(JSON.parse(check));
             console.log("check is not empty")
